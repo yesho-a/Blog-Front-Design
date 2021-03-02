@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Basic Bootstrap Template</title>
+    <!-- Bootstrap CSS file -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="style" href="css/style.css">
+    <script src="jquery-3.0.0.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">
+         #simon a {
+           
+             margin-right: 10px;
+             margin-bottom: -1px;
+             padding-bottom: 1px;
+             border-right:2px solid white;
+             border-radius: 3px; 
+        }
+        #simon {
+            margin:0;
+        }
+        
+       
+        
+        #footer {
+            background-color: black;
+            color: white;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        
+        button {
+            background-color:lightblue;
+            border: 2px solid black;
+            box-shadow: 2px 3px 3px 2px;
+            border-radius: 25px;
+            
+        }
+        
+        a:hover{
+            background-color: yellow;
+        }
+        
+        .card mb-3{
+            
+        }
+        #card {
+            max-width: 740px;
+            border: none; 
+            border-bottom5: 1px solid;
+            box-shadow5: 0 1px black;
+        }
+        #card2 {
+            padding-right: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem
+        }
+        #card3{
+            padding-bottom:0;
+            line-height: 0;
+        }
+        
+        #sep{
+            color: aqua;
+        }
+        #sim{
+            color: red;
+        }
+        
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".card-title").css("color","blue");
+            $("small").css("color","blue");
+            $("small").css("font-weight","bold");
+            $("small").css("font-style","italic");
+            $("small").css("font-size","11px");
+            $("li").css("list-style","none");
+            $("li").css("font-weight","bold");
+            $("ul li:even").css("color","wheat");
+            $("ul li:odd").css("color","black");
+            $("ul li:odd").css("background-color","yellow");
+            $("ul li:even").css("background-color","green");
+            $('input[type="search"]').css("background-color","wheat");
+            $('button[type="submit"]').css("background-color","red");  
+            $('button[type="submit"]').css("color","black");    
+            $('button[type="submit"]').css("font-weight","bold"); 
+            $(".title").css("color","green");
+            $(".title").css("margin-top","15px");
+            $(":radio").nextAll.css("color","red");
+          
+    
+
+
+        })
+    </script>
+        
+        
+</head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col bg-white">
+            <h1 style="text-shadow: 2px 2px 2px green;font-weight:bolder;"> Data Science Blog</h1>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+
+        <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: white;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-bottom:1px;padding-bottom:1px">
+    <div class="navbar-nav" id="simon" style="color: rebeccapurple;">
+     <a class="nav-item nav-link" href="#"><h5 style="color: white;text-shadow: 1px 1px 1px green;"><b>Home</b></h5></a>
+      <a class="nav-item nav-link" href="#"><h5 style="color: white;text-shadow: 1px 1px 1px green;"><b>Posts</b></h5></a>
+      <a class="nav-item nav-link" href="#"><h5 style="color: white;text-shadow: 1px 1px 1px green;"><b>Python</b></h5></a>
+      <a class="nav-item nav-link" href="#"><h5 style="color:white;text-shadow: 1px 1px 1px green;"><b>R</b></h5></a>
+     <a class="nav-item nav-link" href="#"><h5 style="color:white;text-shadow: 1px 1px 1px green;"><b>Services</b></h5></a>
+          <a class="nav-item nav-link" href="#"><h5 style="color: white;text-shadow: 1px 1px 1px green;"><b>About</b></h5></a>
+    </div>
+     
+  </div>
+          
+</nav>
+            </div>
+    
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-8 col-md-8 bg-white">
+            <div class="card mb-3" id="card" style="margin-bottom: 25px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Why Academic Software Sucks</h5>
+          <small style="color: lightskyblue">July 15, 2019, Simon Yesho</small>
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="card mb-3" id="card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Studying Bioinformatics</h5>
+           <small>July 15, 2019, Simon Yesho</small>
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+            
+              <div class="card mb-3" id="card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Why Academic Software Sucks</h5>
+                    <small style="color: lightskyblue">July 15, 2019, Simon Yesho</small>
+
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+           
+              <div class="card mb-3" id="card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Why Academic Software Sucks</h5>
+                    <small style="color: lightskyblue">July 15, 2019, Simon Yesho</small>
+
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+          
+              <div class="card mb-3" id="card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Why Academic Software Sucks</h5>
+                    <small style="color: lightskyblue">July 15, 2019, Simon Yesho</small>
+
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+            
+              <div class="card mb-3" id="card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Why Academic Software Sucks</h5>
+                    <small style="color: lightskyblue">July 15, 2019, Simon Yesho</small>
+
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+              <div class="card mb-3" id="card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="why_academic_software_sucks_avatar.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" id="card2">
+        <h5 class="card-title" id="card3">Why Academic Software Sucks</h5>
+          <small>July 15, 2019, Simon Yesho</small>
+        <p class="card-text">The way in which academic software is developed differs starkly from the way that software is engineered in industry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+       
+            </div>
+            <div class="col-lg-4 bg-light" style="margin-left: 0">
+                    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+                <br>
+                <h5 class="title" style="border-bottom: 3px solid black"><b>Recent Posts</b></h5>
+                <ul>
+                <li>Why Academic Software Sucks</li>
+                <li>An Introduction to Forecasting</li>
+                <li>Prediction vs Forecasting</li>
+                <li>Interpreting ROC Curves, Precision-Recall Curves, and AUCs</li>
+                <li>Inference vs Prediction</li></ul>
+                <h5 class="title" style="border-bottom: 3px solid black"><b>Categories</b></h5>
+                <ul>
+                <li>Basic statistics</li>
+                <li>Commentary</li>
+                <li>Data visualization</li>
+                <li>Machine learning</li>
+                <li>Other</li>
+                <li>Statistical test</li></ul>
+                <h5 class="title" style="border-bottom: 3px solid black"><b>Tags</b></h5>
+                <button>Python</button><button>Pandas</button><button>Numpy</button><br>
+                <button>R</button><button>Excel</button><button>Tutorials</button>
+                <h5 class="title" id="jeff1" style="border-bottom: 3px solid black"><b>Social</b></h5>
+                <button id="jeff">Facebook</button>
+                <button>Twitter</button>
+                <button>Github</button>
+                <h5 class="title" style="border-bottom: 3px solid black"><b>Poll</b></h5>
+                <p id="sep">What is your favorite supervised learning model?</p>
+                <input type="radio" style="font-weight: bolder"> KNN<br>
+                <input type="radio"> SVM<br>
+                <input type="radio"> Regression<br>
+                <p></p>
+                   <button style="width: 60%">Vote</button>
+                <p><button style="width: 60%">View Results</button></p> 
+                
+            </div>
+        </div>
+        
+        </div>
+        
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: white;">
+           <b>Copyright@2019   GraphZone</b>
+            </nav>
+        </div>
+    </body>
+</html>
